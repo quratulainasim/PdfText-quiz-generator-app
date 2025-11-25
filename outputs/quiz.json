@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Python ko kis tarah ki programming language ke taur par describe kiya gaya hai?",
+      "options": [
+        "A) Low-level, compiled",
+        "B) High-level, compiled",
+        "C) Low-level, interpreted",
+        "D) High-level, interpreted"
+      ],
+      "answer": "D) High-level, interpreted"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Agentic AI systems mein LangChain ka bunyadi istemal kya hai?",
+      "options": [
+        "A) Data cleaning aur visualization",
+        "B) Autonomous decision making",
+        "C) LLM workflows",
+        "D) Ethical hacking tools"
+      ],
+      "answer": "C) LLM workflows"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Python code execution continuum mein, interpreter code ko kis intermediate format mein convert karta hai?",
+      "options": [
+        "A) Machine Code",
+        "B) Source Code",
+        "C) Bytecode",
+        "D) Binary Code"
+      ],
+      "answer": "C) Bytecode"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Python mein code block define karne ke liye indentation ka standard kitni spaces hain?",
+      "options": [
+        "A) 2 spaces",
+        "B) 3 spaces",
+        "C) 4 spaces",
+        "D) 1 tab (exclusively)"
+      ],
+      "answer": "C) 4 spaces"
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Darj zel mein se kaunsa Object-Oriented Programming (OOP) ka pillar nahi hai jiska zikr text mein kiya gaya hai?",
+      "options": [
+        "A) Encapsulation",
+        "B) Inheritance",
+        "C) Composition",
+        "D) Abstraction"
+      ],
+      "answer": "C) Composition"
+    },
+    {
+      "id": 6,
+      "type": "short_answer",
+      "question": "Python ke kam az kam teen practical applications bayan karein jaisa ke text mein zikr kiya gaya hai.",
+      "answer": "Python ke practical applications mein Data Science (data cleaning, ML, visuals), AI/ML (predictive models), Web Dev (Flask, Django), Robotics (control systems), NLP (chatbots, translation), Cybersecurity (ethical hacking), aur Automation (repetitive tasks ke liye scripts) shamil hain. (Any three from this list are acceptable)."
+    },
+    {
+      "id": 7,
+      "type": "short_answer",
+      "question": "\"Duck Typing\" ke concept ko misaal ke saath explain karein jaisa ke text mein bataya gaya hai.",
+      "answer": "Duck Typing Python mein ek programming approach hai jahan ek object ko uske actual type se zyada uske attributes aur methods ke hisaab se evaluate kiya jata hai. Iska matlab hai \"Agar yeh ek duck ki tarah chalti hai aur baat karti hai, toh yeh ek duck hai.\" Yani, agar kisi object mein required methods (behavior) hain, toh Python us object ko us type ka samajhta hai, chahe uska asal type kuch bhi ho. Maslan, agar aik `have_conversation` function ko sirf `speak()` method walay object ki zaroorat hai, toh woh `Human`, `Parrot`, ya `Robot` object ke saath kaam karega, jab tak un mein `speak()` method maujood ho. Python object ka type check nahi karta, bas method ki dastyabi dekhta hai."
+    }
+  ]
+}
