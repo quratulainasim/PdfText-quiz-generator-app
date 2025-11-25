@@ -1,6 +1,6 @@
 import os
 import asyncio
-
+import nest_asyncio
 from dotenv import load_dotenv
 import nest_asyncio
 from agents import Agent, Runner, OpenAIChatCompletionsModel
@@ -120,3 +120,4 @@ class AgentCore:
 
 if __name__ == "__main__":
     pass
+
