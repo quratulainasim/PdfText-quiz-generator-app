@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 import json
+from app_agents.study_agent import AgentCore
+
 from dotenv import load_dotenv
 from backend.modules.pdf_reader import extract_text_from_pdf
 from app_agents.study_agent import AgentCore
@@ -227,3 +229,4 @@ if uploaded_file is not None:
 
     else:
         st.error("Could not extract text from the PDF.")
+
